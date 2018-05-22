@@ -1,12 +1,12 @@
 import { initializeApp } from 'firebase';
 
 const app = initializeApp({
-  apiKey: "AIzaSyAguv9dF2A09fOAXNsQIEqI-GEwkpsEx9c",
-  authDomain: "nomadic-groove-197509.firebaseapp.com",
-  databaseURL: "https://nomadic-groove-197509.firebaseio.com",
-  projectId: "nomadic-groove-197509",
-  storageBucket: "nomadic-groove-197509.appspot.com",
-  messagingSenderId: "5408491407"
+  apiKey: "YOUR_API_KEY",
+  authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
+  databaseURL: "https://YOUR_PROJECT_ID.firebaseio.com",
+  projectId: "YOUR_PROJECT_ID",
+  storageBucket: "YOUR_PROJECT_ID.appspot.com",
+  messagingSenderId: "YOUR_MESSAGING_SENDER_ID"
 });
 
 export const db = app.database();
